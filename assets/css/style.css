@@ -3013,8 +3013,7 @@ div#mCSB_1_container{
 
 
 .banner-section.style-two .banner-carousel .slide-item:before{
-  background: -webkit-linear-gradient(-90deg, rgba(35,21,14,0.85)25%, rgba(35,21,14,0.20) 100%);
-  opacity: 1;
+  background: #34261fb3;
 }
 
 .banner-section.style-two .banner-carousel .slide-item{
