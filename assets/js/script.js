@@ -220,16 +220,20 @@
             navText: [ '<span class="far fa-angle-left"></span>', '<span class="far fa-angle-right"></span>' ],
             responsive:{
                 0:{
-                    items:1
+                    items:1,
+					loop:true
                 },
                 600:{
-                    items:1
+                    items:1,
+					loop:true
                 },
                 800:{
-                    items:1
+                    items:1,
+					loop:true
                 },
                 1024:{
-                    items:1
+                    items:1,
+					loop:true
                 }
             }
         });
