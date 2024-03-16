@@ -209,31 +209,31 @@
 	// banner-carousel
 	if ($('.banner-carousel').length) {
         $('.banner-carousel').owlCarousel({
-            loop:true,
+            loop:false,
 			margin:0,
 			nav:true,
 			animateOut: 'fadeOut',
     		animateIn: 'fadeIn',
     		active: true,
 			smartSpeed: 1000,
-			autoplay: 6000,
+			// autoplay: 6000,
             navText: [ '<span class="far fa-angle-left"></span>', '<span class="far fa-angle-right"></span>' ],
             responsive:{
                 0:{
                     items:1,
-					loop:true
+					loop:false
                 },
                 600:{
                     items:1,
-					loop:true
+					loop:false
                 },
                 800:{
                     items:1,
-					loop:true
+					loop:false
                 },
                 1024:{
                     items:1,
-					loop:true
+					loop:false
                 }
             }
         });
